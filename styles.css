@@ -25,6 +25,9 @@
   } */
 
 
+
+
+
   #overlay1024 {
     position: fixed;
     z-index: 10;
@@ -217,8 +220,8 @@
     margin: 50px;
   }
 
-  #suppteamtitle {
-    text-align: center;
+  .abouttitle {
+    text-align: left;
   }
 
   .spencerbio, .hameenbio {
@@ -253,6 +256,7 @@
    .sociallinks { 
     text-align: center;
     margin-top: 30px;
+    margin-right: 35px;
   }
 
   .sociallinks1 {  
@@ -461,6 +465,11 @@
 
     .spencerbio, .hameenbio {
       flex-wrap: nowrap;
+    }
+
+
+    .abouttitle {
+      text-align: center;
     }
 
 
